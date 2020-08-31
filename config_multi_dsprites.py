@@ -1,0 +1,21 @@
+T = 4
+batch_size = 64
+A = 64
+B = 64
+z_size = 50
+cat_size = 3
+window_size = 32
+rnn_size = 256
+
+epoch_num = 150
+learning_rate = 1e-4
+beta1 = 0.5
+USE_CUDA = True
+clip = 5.0
+anneal_rate=0.002
+tau_final = 0.5
+z_pres_prior= 0.02
+anneal_prior = 'None'
+anneal_prior_to = 1e-7
+anneal_prior_begin = 0
+anneal_prior_duration = 100000
